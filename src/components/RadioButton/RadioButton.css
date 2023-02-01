@@ -1,0 +1,33 @@
+.radio-button {
+    width: 90%;
+    padding: 20px 25px 20px 25px;
+    border: 1px solid #CDCDCD;
+    border-radius: 3px;
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+
+.radio-button--selected {
+    border-color: #247A33;
+    color: #247A33;
+}
+
+.radio-button__circle {
+    width: 24px;
+    height: 24px;
+    border:1px solid #CDCDCD;
+    border-radius: 50%;
+    margin-right: 20px;
+    transition: all ease 0.3s;
+    box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.12);
+
+}
+
+.radio-button__circle--selected {
+    background-color: #247A33;
+    border-color: #247A33;
+} 
